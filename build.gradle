@@ -6,15 +6,6 @@ plugins {
     id "org.sonarqube" version "5.1.0.4882"
 }
 
-sonar {
-    properties {
-        property("sonar.projectKey", "Test1")
-        property("sonar.organization", "myOrganization")
-        property("sonar.token", "sqp_9ffdba23d644e72f3ee081bedc07e966445764b4")
-        property("sonar.host.url", "http://192.168.0.107:9000")
-    }
-}
-
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 
