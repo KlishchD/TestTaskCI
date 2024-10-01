@@ -8,7 +8,7 @@ plugins {
 
 sonar {
     properties {
-        property("sonar.projectKey", "TestTaskCI")
+        property("sonar.projectKey", "KlishchD_TestTaskCI_9d71b0e8-7a51-4c89-ad81-2d4b12ac6a1c")
         property("sonar.organization", "KlishchD")
     }
 }
