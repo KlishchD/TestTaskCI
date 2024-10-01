@@ -82,7 +82,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_1 }}  # analysis token associated to your project
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
-            cd PROJECT1_PATH/
             ./gradlew build sonar --info
         #Replace variable with the project path
 
@@ -115,7 +114,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_2 }}  # analysis token associated to your project
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
-            cd PROJECT2_PATH/
             ./gradlew build sonar --info
         #Replace variable with the project path
   # Add other scan jobs if you wish to scan more projects in the monorepo
